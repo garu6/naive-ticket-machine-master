@@ -84,4 +84,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    //metodo que simula la extraccion total del dinero 
+    public void vaciar(){
+        if (balance == 0) {
+            total=0;
+        }
+    }
+    public int getTotal(){
+        return total;
+    }
 }
