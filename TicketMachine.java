@@ -31,7 +31,7 @@ public class TicketMachine
         total = 0;
     }
     
-    //Precio fijo del billete como parametro 
+    //Precio fijo del billete como parametro introducido
     public TicketMachine(int precioBillete)
     {
         price = precioBillete;
